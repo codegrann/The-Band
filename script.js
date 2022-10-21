@@ -20,12 +20,14 @@ let goBack = function () {
    
 }
 let goFront = function () {
+    
     i++;
     if (i >= photos.length) {
         i = 0;
     }
-
+    
     img1.src = photos[i];
+    
 
 }
 // let state=function(){
@@ -42,6 +44,10 @@ let goFront = function () {
     //    p1.innerHTML="We had the best time playing at Venice Beach!";  
     // }
 // }
+let clearInterval=function(){
+    clearInterval();
+}
+prev.addEventListener("mouseover", clearInterval);
 prev.addEventListener("click", goBack);
 // prev.addEventListener("click", state);
 next.addEventListener("click", goFront);
@@ -53,7 +59,8 @@ search.oninput = function () {
 }
 
 
-setInterval(goFront, 2500);
+setInterval(goFront, 3000);
+
 // setInterval(state, 2500);
 // setTimeout(goBack, 50);
 
