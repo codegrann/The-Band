@@ -27,7 +27,7 @@ let goFront = function () {
     }
     
     img1.src = photos[i];
-    clearInterval(interv);    
+      
 
 }
 // let state=function(){
@@ -59,7 +59,8 @@ search.oninput = function () {
 }
 
 
-let interv=setInterval(goFront, 3000);
+setInterval(goFront, 3000);
+clearInterval(interv);
 
 
 
