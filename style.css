@@ -308,8 +308,12 @@ input{
         margin-left: 2%;
     }
     #closeNav{
+        /* color: white; */
+        /* display: block; */
         /* position: fixed; */
         /* top: -0.2rem; */
+        /* left: 0; */
         /* right: 0; */
         /* z-index: 5; */
-}
+    }
+}    

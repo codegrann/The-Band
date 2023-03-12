@@ -1,5 +1,7 @@
 let home = document.getElementById("home");
 // let head=document.getElementById("header");
+let openBtn=document.querySelector("#openNav");
+let closeBtn=document.querySelector("#closeNav")
 let prev = document.getElementById("prev");
 let next = document.getElementById("next");
 let img1 = document.getElementById("homeimg");
@@ -9,6 +11,27 @@ let h1=document.getElementById("h1");
 let p1=document.getElementById("p1");
 let photos = ["la.jpg", "chicago.jpg", "ny.jpg"];
 // head.style.backgroundColor="yellow";
+
+openBtn.addEventListener('click', openMenu);
+closeBtn.addEventListener('click', closeMenu);
+
+function openMenu(){
+    openBtn.style.display="none";
+    // navMenu.style.display="block"
+    closeBtn.style.display="block";
+}
+
+function closeMenu(){
+    //  navMenu.style.display="none";
+    closeBtn.style.display="none";
+    openBtn.style.display="block";
+}
+
+
+
+
+
+
 i=0;
 let goBack = function () {
     i--;
