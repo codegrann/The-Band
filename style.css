@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 #header{
     width: 100vw;
@@ -50,10 +51,14 @@ body{
 
 #header input{
     align-self: center;
-    margin-right: 0.9rem;
-    background-color: black;
+    margin-right: 2%;
+    /* background-color: black; */
     height: 2rem;
 }
+
+
+
+/* Landing Section */
 #home{
     /* background-image: url(la.jpg); */
     height: 100vh;
