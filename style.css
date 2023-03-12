@@ -12,6 +12,23 @@ body{
     top: 0;
     z-index: 2;
 }
+.lines{
+    width: 36px;
+        /* height: px; */
+        border: 0.125rem solid rgb(238, 231, 231);
+        margin-bottom: 0.5rem;
+}
+#openNav{
+    display: none;
+    font-size: 18pt;
+}
+#closeNav{
+    font-size: 3.5rem;
+    display: none;
+}
+
+
+
 #nav ul{
     list-style: none;
     display: inline-flex;
@@ -286,4 +303,13 @@ input{
     header input{
         margin-left: auto;
     }
+    #openNav{
+        display: block;
+        margin-left: 2%;
+    }
+    #closeNav{
+        /* position: fixed; */
+        /* top: -0.2rem; */
+        /* right: 0; */
+        /* z-index: 5; */
 }
