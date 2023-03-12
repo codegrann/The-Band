@@ -32,7 +32,7 @@ body{
 #dropdown-content{
     display: none;
     position: absolute;
-    background-color: grey;
+    background-color: rgb(60, 58, 58);
     /* z-index: 1; */
 }
 #dropdown-content a{
