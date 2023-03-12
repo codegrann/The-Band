@@ -278,3 +278,7 @@ input{
 #footer a{
     color: grey;
 }
+
+@media(max-width:690px){
+    
+}
