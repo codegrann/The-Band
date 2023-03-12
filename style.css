@@ -13,10 +13,10 @@ body{
     z-index: 2;
 }
 .lines{
-    width: 36px;
+    width: 35px;
         /* height: px; */
-        border: 0.125rem solid rgb(238, 231, 231);
-        margin-bottom: 0.5rem;
+        border: 0.1rem solid rgb(238, 231, 231);
+        /* margin-bottom: 0.1rem; */
 }
 #openNav{
     display: none;
