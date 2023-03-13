@@ -311,11 +311,12 @@ input{
         border: 2px solid red;
     }
     #offcanvasNav{
+        display: block;
         width: 50vw;
         height: 100vh;
         background-color: rgb(240, 13, 13);
         position: absolute;
-        /* top:1rem; */
+        top:-4rem;
         /* display: flex; */
         /* flex-direction: column; */
         /* justify-content: ; */
