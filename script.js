@@ -2,6 +2,7 @@ let home = document.getElementById("home");
 // let head=document.getElementById("header");
 let openBtn=document.querySelector("#openNav");
 let closeBtn=document.querySelector("#closeNav")
+let navMenu=document.querySelector("#nav");
 let prev = document.getElementById("prev");
 let next = document.getElementById("next");
 let img1 = document.getElementById("homeimg");
@@ -17,12 +18,12 @@ closeBtn.addEventListener('click', closeMenu);
 
 function openMenu(){
     openBtn.style.display="none";
-    // navMenu.style.display="block"
+    navMenu.style.display="block"
     closeBtn.style.display="block";
 }
 
 function closeMenu(){
-    //  navMenu.style.display="none";
+     navMenu.style.display="none";
     closeBtn.style.display="none";
     openBtn.style.display="block";
 }

@@ -68,6 +68,9 @@ body{
     
 }
 
+#offcanvasNav{
+    display: none;
+}
 
 
 #header input{
@@ -302,6 +305,20 @@ input{
     }   
     header input{
         margin-left: auto;
+    }
+    #nav ul li{
+        display: inline;
+        border: 2px solid red;
+    }
+    #offcanvasNav{
+        width: 50vw;
+        height: 100vh;
+        background-color: rgb(240, 13, 13);
+        position: absolute;
+        /* top:1rem; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: ; */
     }
     #openNav{
         display: block;
