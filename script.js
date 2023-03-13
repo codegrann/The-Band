@@ -2,7 +2,9 @@ let home = document.getElementById("home");
 // let head=document.getElementById("header");
 let openBtn=document.querySelector("#openNav");
 let closeBtn=document.querySelector("#closeNav")
-let navMenu=document.querySelector("#nav");
+let navMenu=document.querySelector("#offcanvasNav");
+let dropBtn=document.querySelector("#dropBtn");
+let dropContent=document.querySelector("#dropContent")
 let prev = document.getElementById("prev");
 let next = document.getElementById("next");
 let img1 = document.getElementById("homeimg");
@@ -15,6 +17,7 @@ let photos = ["la.jpg", "chicago.jpg", "ny.jpg"];
 
 openBtn.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
+dropBtn.addEventListener('click', openDropMenu);
 
 function openMenu(){
     openBtn.style.display="none";
@@ -26,6 +29,9 @@ function closeMenu(){
      navMenu.style.display="none";
     closeBtn.style.display="none";
     openBtn.style.display="block";
+}
+function openDropMenu(){
+    dropContent.style.display="block";
 }
 
 
