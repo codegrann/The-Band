@@ -89,7 +89,7 @@ search.oninput = function () {
 }
 
 
-setInterval(goFront, 3000);
+setInterval(goFront, 5000);
 
 
 
