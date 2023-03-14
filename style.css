@@ -76,7 +76,8 @@ body{
 #header input{
     align-self: center;
     margin-right: 2%;
-    /* background-color: black; */
+    background-color: rgb(51, 45, 45);
+    border: none;
     height: 2rem;
 }
 
