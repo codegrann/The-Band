@@ -303,6 +303,7 @@ input{
 @media(max-width:690px){
     #nav{
         display: none;
+        position: fixed;
     }   
     header input{
         margin-left: auto;
