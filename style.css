@@ -108,7 +108,7 @@ body{
     box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
 }
 .homebtn:hover{
-    background-color: rgb(112, 123, 122);
+    background-color: rgb(21, 23, 23);
     cursor: pointer;
 }
 #homeimg{
