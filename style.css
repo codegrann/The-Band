@@ -317,7 +317,6 @@ input{
         height: 100vh;
         background-color: rgb(0, 0, 0);
         position: absolute;
-        /* top: 20px; */
         top:70%;
         list-style-type: circle;
         font-size: 10pt; 
