@@ -372,17 +372,37 @@ input{
     #closeNav{
         font-size: 32pt;
     }
+    #sub_title{
+        top: 65%;
+        left: 25%;
+    }
+
 }    
 @media(max-width:550px){
     .homebtn{
         font-size: 90%;
         padding: 1% 2%;
     }
+    #sub_title{
+        top: 55%;
+        left: 20%;
+    }
 }
 
-@media(max-width:550px){
+@media(max-width:390px){
     #band{
+        /* font-size: 8pt; */
+        /* line-height: 0.2; */
+    }
+    #sub_title{
+        /* top: 55%; */
+        left: 10%;
+    }
+    #sub_title h1{
+        margin-bottom: -0.6rem;
+        font-size: 14pt;
+    }
+    #sub_title p{
         font-size: 8pt;
-        line-height: 0.2;
     }
 }
