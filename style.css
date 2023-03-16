@@ -141,7 +141,7 @@ body{
     font-weight: 400;
 }
 #band h4{
-    color: gray;
+    opacity: 0.5;
     font-size: 9pt;
 }
 #band p{
