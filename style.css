@@ -308,9 +308,7 @@ input{
 
 /* MEDIA QUERIES */
 @media(max-width:1080px){
-    #next{
-        /* right: 2vw; */
-    }
+   
 }
 
 @media(max-width:690px){
