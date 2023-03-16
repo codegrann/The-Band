@@ -384,19 +384,8 @@ input{
         padding: 1% 2%;
     }
     #sub_title{
-        top: 55%;
-        left: 20%;
-    }
-}
-
-@media(max-width:390px){
-    #band{
-        /* font-size: 8pt; */
-        /* line-height: 0.2; */
-    }
-    #sub_title{
         /* top: 55%; */
-        left: 10%;
+        left: 25%;
     }
     #sub_title h1{
         margin-bottom: -0.6rem;
@@ -406,3 +395,16 @@ input{
         font-size: 8pt;
     }
 }
+
+@media(max-width:390px){
+    #band{
+        /* font-size: 8pt; */
+        /* line-height: 0.2; */
+    }
+    #sub_title{
+        top: 65%;
+        left: 20%;
+    }
+   
+}
+
