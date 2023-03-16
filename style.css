@@ -86,7 +86,7 @@ body{
 /* Landing Section */
 #home{
     /* background-image: url(la.jpg); */
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     position: relative;
     top: 2rem;
@@ -130,7 +130,7 @@ body{
 
 /* THE BAND SECTION */
 #band{
-    margin: 5rem 15rem;
+    /* margin-top: 5rem; */
 }
 #band h1{
     color: rgb(51, 45, 45);
