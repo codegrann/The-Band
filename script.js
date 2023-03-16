@@ -94,4 +94,3 @@ setInterval(goFront, 5000);
 
 
 
-
