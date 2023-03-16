@@ -397,14 +397,15 @@ input{
 }
 
 @media(max-width:390px){
-    #band{
-        /* font-size: 8pt; */
-        /* line-height: 0.2; */
-    }
-    #sub_title{
+     #sub_title{
         top: 65%;
         left: 20%;
     }
+    #band p{
+        font-size: 8pt;
+        line-height: 1.5;
+    }
+   
    
 }
 @media(max-width:324px){
