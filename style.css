@@ -418,6 +418,13 @@ input{
         font-size: 8pt;
         line-height: 1.5;
     }
+    #flex_div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex_img{
+        width:50vw;
+    }
    
    
 }
