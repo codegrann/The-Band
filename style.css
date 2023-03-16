@@ -137,7 +137,8 @@ body{
     padding: 1%  5%;
 }
 #band h1{
-    color: rgb(51, 45, 45);
+    /* color: rgb(51, 45, 45); */
+    opacity: 0.8;
     font-weight: 400;
 }
 #band h4{
@@ -147,6 +148,7 @@ body{
 #band p{
     font-size: 10pt;
     line-height: 1.7;
+    opacity: 0.9;
 }
 #flex_div{
     margin-top: 4rem;
