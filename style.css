@@ -401,6 +401,14 @@ input{
         top: 65%;
         left: 20%;
     }
+    #band h1{
+        font-size: 15pt;
+        letter-spacing: 2px;
+        margin-bottom: -0.6rem;
+    }
+    #band h4{
+        word-spacing: -1px;
+    }
     #band p{
         font-size: 8pt;
         line-height: 1.5;
