@@ -93,7 +93,7 @@ body{
     
 }
 #sub_title{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 10pt;
     position: absolute;
     top: 74%;
@@ -407,4 +407,8 @@ input{
     }
    
 }
-
+@media(max-width:324px){
+    #sub_title{
+        left: 10%;
+    }
+}
