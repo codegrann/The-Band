@@ -151,13 +151,15 @@ body{
     opacity: 0.9;
 }
 #flex_div{
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .flex_img{
+    width: 25vw;
     display: flex;
     flex-direction: column;
+    margin-left: 2%;
 }
 .flex_img img{
     border-radius: 0.4rem;
@@ -166,6 +168,7 @@ body{
     margin-bottom: 1.5rem;
 }
 
+/* TOUR SECTION */
 #tour{
     background-color: black;
     min-height: 100vh;
