@@ -130,7 +130,10 @@ body{
 
 /* THE BAND SECTION */
 #band{
-    /* margin-top: 5rem; */
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    border: 2px solid red;
+    padding: 1%  5%;
 }
 #band h1{
     color: rgb(51, 45, 45);
@@ -373,5 +376,12 @@ input{
     .homebtn{
         font-size: 90%;
         padding: 1% 2%;
+    }
+}
+
+@media(max-width:550px){
+    #band{
+        font-size: 8pt;
+        line-height: 0.2;
     }
 }
