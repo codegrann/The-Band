@@ -183,10 +183,13 @@ body{
     /* justify-content: center; */
     /* align-items: center; */
     /* width: 600vw; */
-    margin: 1.3rem 15rem;
+    /* margin: 1.3rem 15rem; */
 }
-
+#open_txt{
+    border: 2px solid red;
+}
 #tickets{
+    border: 2px solid red;
     background-color: white;
     color: black;
     width: 60vw;
@@ -215,7 +218,8 @@ body{
 }
 
 #ticks_avail{
-    margin: 4rem 0 4rem 0;
+    border: 2px solid red;
+    /* margin: 4rem 0 4rem 0; */
     display: flex;
     justify-content: space-around;
 }
