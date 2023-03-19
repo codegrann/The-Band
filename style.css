@@ -170,7 +170,8 @@ body{
 
 /* TOUR SECTION */
 #tour{
-    background-color: black;
+    /* background-color: rgb(47, 30, 30); */
+    background-image: linear-gradient(black 30%, grey 80%);
     /* min-height: 100vh; */
     color: white;
 
