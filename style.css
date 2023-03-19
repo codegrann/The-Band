@@ -133,7 +133,7 @@ body{
 #band{
     margin-top: 2rem;
     margin-bottom: -1rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 1%  5%;
 }
 #band h1{
