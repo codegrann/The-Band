@@ -177,14 +177,15 @@ body{
 
 }
 #tour_tickets{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
-    width: 60vw;
+    /* align-items: center; */
+    /* width: 600vw; */
     margin: 1.3rem 15rem;
 }
+
 #tickets{
     background-color: white;
     color: black;
