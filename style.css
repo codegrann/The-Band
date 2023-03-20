@@ -194,9 +194,9 @@ body{
 #tickets{
     align-self: center;
     border: 2px solid red;
-    background-color: white;
+    background-color: rgb(192, 214, 211);
     color: black;
-    width: 60vw;
+    width: 50vw;
    
 }
 #tickets p{
