@@ -394,8 +394,12 @@ input{
     #open_txt{
         font-size: 90%;
     }
-}   #open_txt h1{
+    #open_txt h1{
         margin-bottom: -0.5rem;
+    }
+    #tickets{
+        width: 80%;
+    }
 }
 @media(max-width:550px){
     .homebtn{
@@ -439,7 +443,9 @@ input{
     .flex_img{
         width:50vw;
     }
-   
+   #tickets{
+    width: 100%;
+   }
    
 }
 @media(max-width:324px){
