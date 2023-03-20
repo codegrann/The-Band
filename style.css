@@ -188,6 +188,8 @@ body{
 }
 #open_txt{
     border: 2px solid red;
+    font-size: 12pt;
+    font-weight:lighter;
 }
 #tickets{
     border: 2px solid red;
