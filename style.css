@@ -390,8 +390,12 @@ input{
         top: 65%;
         left: 25%;
     }
-
-}    
+    #open_txt{
+        font-size: 90%;
+    }
+}   #open_txt h1{
+        margin-bottom: -0.5rem;
+}
 @media(max-width:550px){
     .homebtn{
         font-size: 90%;
@@ -440,5 +444,8 @@ input{
 @media(max-width:324px){
     #sub_title{
         left: 10%;
+    }
+    #open_txt{
+        font-size: 60%;
     }
 }
