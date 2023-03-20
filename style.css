@@ -192,6 +192,7 @@ body{
     font-weight:lighter;
 }
 #tickets{
+    align-self: center;
     border: 2px solid red;
     background-color: white;
     color: black;
