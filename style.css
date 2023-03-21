@@ -205,6 +205,9 @@ body{
 }
 #tickets span{
     background-color: red;
+    font-size: 10pt;
+    padding: 0.5%;
+    border-radius: 7%;
 
 }
 #p_flex{
