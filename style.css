@@ -240,8 +240,7 @@ body{
     color: black;
     border-radius: 2%;
     margin-bottom: 3%;
-    /* border: 2px solid red; */
-    /* border-radius: 0.75rem; */
+   box-shadow: 3px 3px 10px rgb(28, 23, 23),  -3px -3px 10px rgb(28, 23, 23);
 }
 .avail img{
     max-width: 100%;
