@@ -282,6 +282,11 @@ body{
     border: 2px solid red;
     width: 100vw;
 }
+#contact h1{
+    font-size: 16pt;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
 #contact h1, #p_center{
     text-align: center;
 }
