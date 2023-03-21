@@ -276,7 +276,7 @@ body{
 /* CONTACT SECTION */
 #contact{
     background-color: white;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 100vw;
 }
 #contact h1, #p_center{
