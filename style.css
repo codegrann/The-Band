@@ -232,16 +232,19 @@ body{
     /* margin: 4rem 0 4rem 0; */
     display: flex;
     justify-content: center;
+    gap: 5%;
 }
 .avail{
-    max-width: 20%;
-    background-color: white;
+    max-width: 25%;
+    background-color: rgb(250, 253, 252);
     color: black;
+    border-radius: 2%;
     /* border: 2px solid red; */
     /* border-radius: 0.75rem; */
 }
 .avail img{
     max-width: 100%;
+    border-radius: 2%;
 }
 .avail p{
     margin-left: 0.5rem;
