@@ -244,9 +244,10 @@ body{
    box-shadow: 3px 3px 10px rgb(28, 23, 23),  -3px -3px 10px rgb(28, 23, 23);
 }
 .avail img{
-    max-width: 100%;
-    border-radius: 2%;
-    transition: ;
+    width: 100%;
+    /* border-radius: 2%; */
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
 }
 .avail:hover img{
     /* display: none; */
