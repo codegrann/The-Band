@@ -246,14 +246,15 @@ body{
 .avail img{
     max-width: 100%;
     border-radius: 2%;
+    transition: ;
 }
 .avail:hover img{
     /* display: none; */
     /* filter: grayscale(1.3); */
     /* transform: rotate(40deg); */
     /* width: 110%; */
-    transform: scaleX(1.2);
-    transform: scaleX(1.2);
+    transform: scale(1.1);
+    /* transform: scaleY(1.2); */
 }
 .avail p{
     margin-left: 0.5rem;
