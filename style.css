@@ -250,12 +250,7 @@ body{
     transition-timing-function: ease-out;
 }
 .avail:hover img{
-    /* display: none; */
-    /* filter: grayscale(1.3); */
-    /* transform: rotate(40deg); */
-    /* width: 110%; */
     transform: scale(1.1);
-    /* transform: scaleY(1.2); */
 }
 .avail p{
     margin-left: 0.5rem;
