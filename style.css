@@ -287,22 +287,23 @@ body{
     text-align: center;
 }
 #left{
-    text-align: left;
+    /* text-align: left; */
 }
 #contact{
     margin-top: 2rem;
     margin-bottom: 0.75rem;
 }
 #contact_us{
-    /* border: 2px solid red; */
-    width: 50vw;
-    margin: 1.5rem auto;
+    border: 2px solid red;
+    /* width: 50vw; */
+    /* margin: 1.5rem auto; */
     display: flex;
-    /* justify-content: ; */
+    justify-content: center;
+    gap: 7%;
 
 }
 #contact_form{
-    /* margin-left: auto; */
+    /* margin: 0 auto; */
 
 }
 input{
