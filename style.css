@@ -286,9 +286,7 @@ body{
 #contact h1, #p_center{
     text-align: center;
 }
-#left{
-    /* text-align: left; */
-}
+
 #contact{
     margin-top: 2rem;
     margin-bottom: 0.75rem;
