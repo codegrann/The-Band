@@ -294,7 +294,7 @@ body{
     /* margin: 1.5rem auto; */
     display: flex;
     justify-content: center;
-    gap: 7%;
+    gap: 4%;
 
 }
 #contact_us div{
@@ -314,7 +314,7 @@ body{
 input{
     margin: 0.5rem;
     height: 2rem;
-    width: 150%;
+    width: 120%;
 }
 
 #input1{
@@ -325,7 +325,9 @@ input{
     /* margin-left: auto; */
 }
 #textarea{
-    width: 90%;
+    width: 150%;
+    height: 10vw;
+    margin-left: 2.8%;
 }
 #submit{
     /* position: relative; */
