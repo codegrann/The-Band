@@ -446,6 +446,9 @@ input{
     .avail{
         width: 40vw;
     }
+     #contact_us{
+        justify-content: start;
+    }
 }
 @media(max-width:550px){
     .homebtn{
@@ -463,7 +466,12 @@ input{
     #sub_title p{
         font-size: 8pt;
     }
-
+    #contact_us{
+        justify-content: start;
+    }
+    #contact_us span{
+        display: none;
+    }
 }
 
 @media(max-width:390px){
