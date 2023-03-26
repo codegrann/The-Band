@@ -277,6 +277,8 @@ body{
     background-color: white;
     border: 2px solid red;
     width: 100vw;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
 }
 #contact h1{
     font-size: 16pt;
@@ -285,11 +287,6 @@ body{
 }
 #contact h1, #p_center{
     text-align: center;
-}
-
-#contact{
-    margin-top: 2rem;
-    margin-bottom: 0.75rem;
 }
 #contact_us{
     border: 2px solid red;
