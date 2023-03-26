@@ -330,12 +330,14 @@ input{
     margin-left: 2.8%;
 }
 #submit{
-    /* position: relative; */
+    width: 50%;
+    justify-self: end;
+    position: relative;
     /* left: 380px; */
     /* border: none; */
     /* padding: 0.3rem; */
     /* border-radius: 2px; */
-    /* background-color: black; */
+    background-color: rgb(17, 112, 23);
     /* color: white; */
 }
 .inputs{
