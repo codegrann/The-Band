@@ -297,8 +297,15 @@ body{
     gap: 7%;
 
 }
+#contact_us div{
+    border: 2px solid black;
+}
+#contact_us  p{
+    /* margin-top: 5%; */
+}
 #contact_form{
     /* margin: 0 auto; */
+    border: 2px solid blue;
 
 }
 input{
