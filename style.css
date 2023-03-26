@@ -307,7 +307,7 @@ body{
     /* margin: 0 auto; */
     border: 2px solid blue;
     display: grid;
-    width: 40vw;
+    width: 50vw;
     justify-content: start;
 
 }
@@ -463,6 +463,7 @@ input{
     #sub_title p{
         font-size: 8pt;
     }
+
 }
 
 @media(max-width:390px){
