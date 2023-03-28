@@ -289,7 +289,7 @@ body{
     text-align: center;
 }
 #contact_us{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* width: 50vw; */
     /* margin: 1.5rem auto; */
     display: flex;
@@ -298,10 +298,11 @@ body{
 
 }
 #contact_us div{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 1%;
 }
 #contact_us  p:nth-of-type(1),
 #contact_us  p:nth-of-type(2){
