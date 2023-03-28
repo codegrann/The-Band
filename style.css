@@ -465,7 +465,7 @@ input{
         justify-content: start;
     }
     #map img{
-        height: 70vw;
+        height: 40vh;
     }
 }
 @media(max-width:600px){
