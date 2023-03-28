@@ -464,6 +464,9 @@ input{
      #contact_us{
         justify-content: start;
     }
+    #map img{
+        height: 70vw;
+    }
 }
 @media(max-width:600px){
     input{
