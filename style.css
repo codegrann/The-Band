@@ -299,6 +299,9 @@ body{
 }
 #contact_us div{
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #contact_us  p{
     /* margin-top: 5%; */
