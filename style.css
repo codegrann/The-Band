@@ -450,8 +450,11 @@ input{
         justify-content: start;
     }
 }
-@media(max-width:600px){}
-@media(min-width:550px){}
+@media(max-width:600px){
+    input{
+        width: 110%;
+    }
+}
 
 @media(max-width:550px){
     .homebtn{
