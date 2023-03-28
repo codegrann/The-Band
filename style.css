@@ -356,11 +356,16 @@ input{
 #map{
     margin-top: 1.75rem;
     margin-bottom: 2rem;
+    max-width: 100vw;
 }
 #map img{
-    width: 100vw;
+    width: 100%;
     height: 600px;
 }
+#map img:hover{
+    cursor:grabbing;
+}
+
 
 #footer{
     text-align: center;
