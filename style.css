@@ -275,7 +275,7 @@ body{
 /* CONTACT SECTION */
 #contact{
     background-color: white;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100vw;
     margin-top: 2rem;
     margin-bottom: 0.75rem;
@@ -310,7 +310,7 @@ body{
 }
 #contact_form{
     /* margin: 0 auto; */
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: grid;
     width: 50vw;
     justify-content: start;
