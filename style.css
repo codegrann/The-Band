@@ -454,6 +454,9 @@ input{
     input{
         width: 110%;
     }
+    #textarea{
+        height: 100px;
+    }
 }
 
 @media(max-width:550px){
