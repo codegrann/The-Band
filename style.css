@@ -367,12 +367,12 @@ input{
 }
 
 
-#footer{
-    text-align: center;
-}
-#footer a{
-    color: grey;
-}
+/* #footer{ */
+    /* text-align: center; */
+/* } */
+/* #footer a{ */
+    /* color: grey; */
+/* } */
 
 /* MEDIA QUERIES */
 @media(max-width:1080px){
