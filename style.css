@@ -478,6 +478,9 @@ input{
     #contact_us span{
         display: none;
     }
+    input{
+        width: 150%;
+    }
 }
 
 @media(max-width:390px){
