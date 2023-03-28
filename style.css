@@ -355,7 +355,7 @@ input{
 /* MAP SECTION */
 #map{
     margin-top: 1.75rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     max-width: 100vw;
 }
 #map img{
@@ -377,6 +377,11 @@ input{
 /* MEDIA QUERIES */
 @media(max-width:1080px){
    
+}
+@media(min-width:690px){
+#map img{
+    height: 70vh;
+}
 }
 
 @media(max-width:690px){
