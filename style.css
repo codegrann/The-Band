@@ -336,7 +336,7 @@ input{
 }
 #submit{
     width: 70%;
-    justify-self: end;
+    /* justify-self: end; */
     position: relative;
     /* left: 380px; */
     border: none;
