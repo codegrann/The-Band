@@ -441,6 +441,12 @@ input{
     #closeNav{
         font-size: 32pt;
     }
+    #header input{
+    	margin-left: 5%;
+    }
+    
+    
+    
     #sub_title{
         top: 65%;
         left: 25%;
