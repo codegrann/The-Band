@@ -47,8 +47,6 @@ let goBack = function () {
     }
     
     img1.src = photos[i];
-    state();
-   
 }
 let goFront = function () {
     
@@ -61,20 +59,20 @@ let goFront = function () {
     state(); 
 
 }
-let state=function(){
-    if(i=0){
-       h1.innerHTML="Los Angeles";
-       p1.innerHTML="We had the best time playing at Venice Beach!";
-    }
-    else if(i=1){
-       h1.innerHTML="Chicago";
-       p1.innerHTML="We had the best time playing at Venice Beach!";
-    }
-    else{
-       h1.innerHTML="New York";
-       p1.innerHTML="We had the best time playing at Venice Beach!";  
-    }
-}
+// let state=function(){
+    // if(i=0){
+    //    h1.innerHTML="Los Angeles";
+    //    p1.innerHTML="We had the best time playing at Venice Beach!";
+    // }
+    // else if(i=1){
+    //    h1.innerHTML="Chicago";
+    //    p1.innerHTML="We had the best time playing at Venice Beach!";
+    // }
+    // else{
+    //    h1.innerHTML="New York";
+    //    p1.innerHTML="We had the best time playing at Venice Beach!";  
+    // }
+// }
 let clearInterval=function(){
     clearInterval();
 }
