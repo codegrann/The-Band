@@ -66,8 +66,6 @@ let goFront = function () {
 
 }
 
-
-prev.addEventListener("mouseover", clearInterval(goFront()));
 prev.addEventListener("click", goBack);
 next.addEventListener("click", goFront);
 
