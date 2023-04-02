@@ -45,9 +45,9 @@ let goBack = function () {
     if (i < 0) {
         i = photos.length - 1
     }
-    state();
+    
     img1.src = photos[i];
-
+    state();
    
 }
 let goFront = function () {
@@ -56,9 +56,9 @@ let goFront = function () {
     if (i >= photos.length) {
         i = 0;
     }
-    state();
+    
     img1.src = photos[i];
-      
+    state(); 
 
 }
 let state=function(){
