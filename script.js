@@ -15,7 +15,7 @@ let p1=document.getElementById("p1");
 let photos = ["la.jpg", "chicago.jpg", "ny.jpg"];
 let cities=["Los Angeles","Chicago", "New York"]
 let activities=["We had the best time playing at Venice Beach!", 
-                    "We had the best time playing in Chicago streets!",
+                    "Fans enjoyed our company in Chicago streets!",
                 "We had the best time playing in New York City!"]
 // head.style.backgroundColor="yellow";
 
