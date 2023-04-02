@@ -49,8 +49,9 @@ let goBack = function () {
     if (i < 0) {
         i = photos.length - 1
     }
-    
     img1.src = photos[i];
+    h1.innerText=cities[i];
+    p1.innerText=activities[i];
 }
 let goFront = function () {
     
@@ -60,7 +61,8 @@ let goFront = function () {
     }
     
     img1.src = photos[i];
-    state(); 
+    h1.innerText=cities[i];
+    p1.innerText=activities[i];
 
 }
 // let state=function(){
@@ -82,10 +84,9 @@ let clearInterval=function(){
 }
 prev.addEventListener("mouseover", clearInterval);
 prev.addEventListener("click", goBack);
-// prev.addEventListener("click", state);
 next.addEventListener("click", goFront);
-// next.addEventListener("click", state);
-// 
+
+
 let search = document.getElementById("search");
 search.oninput = function () {
     search.style.color = "white";
