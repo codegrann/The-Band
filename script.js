@@ -16,7 +16,7 @@ let photos = ["la.jpg", "chicago.jpg", "ny.jpg"];
 let cities=["Los Angeles","Chicago", "New York"]
 let activities=["We had the best time playing at Venice Beach!", 
                     "Fans enjoyed our company in Chicago streets!",
-                "We had the best time playing in New York City!"]
+                "Our instrumentals were felt on all corners of New York City!"]
 // head.style.backgroundColor="yellow";
 
 openBtn.addEventListener('click', openMenu);
