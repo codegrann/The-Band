@@ -65,24 +65,9 @@ let goFront = function () {
     p1.innerText=activities[i];
 
 }
-// let state=function(){
-    // if(i=0){
-    //    h1.innerHTML="Los Angeles";
-    //    p1.innerHTML="We had the best time playing at Venice Beach!";
-    // }
-    // else if(i=1){
-    //    h1.innerHTML="Chicago";
-    //    p1.innerHTML="We had the best time playing at Venice Beach!";
-    // }
-    // else{
-    //    h1.innerHTML="New York";
-    //    p1.innerHTML="We had the best time playing at Venice Beach!";  
-    // }
-// }
-let clearInterval=function(){
-    clearInterval();
-}
-prev.addEventListener("mouseover", clearInterval);
+
+
+prev.addEventListener("mouseover", clearInterval(goFront()));
 prev.addEventListener("click", goBack);
 next.addEventListener("click", goFront);
 
