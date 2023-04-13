@@ -12,7 +12,7 @@ let homebtn=document.getElementsByClassName("homebtn");
 let homeDiv=document.getElementById("sub_title");
 let h1=document.getElementById("h1");
 let p1=document.getElementById("p1");
-let photos = ["la.jpg", "chicago.jpg", "ny.jpg"];
+let photos = ["assets/la.jpg", "assets/chicago.jpg", "assets/ny.jpg"];
 let cities=["Los Angeles","Chicago", "New York"]
 let activities=["We had the best time playing at Venice Beach!", 
                     "Fans enjoyed our company in Chicago streets!",
