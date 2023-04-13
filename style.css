@@ -306,9 +306,6 @@ body {
 }
 
 #contact_us {
-    /* border: 2px solid red; */
-    /* width: 50vw; */
-    /* margin: 1.5rem auto; */
     display: flex;
     justify-content: center;
     gap: 4%;
@@ -316,7 +313,6 @@ body {
 }
 
 #contact_us div {
-    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -329,8 +325,6 @@ body {
 }
 
 #contact_form {
-    /* margin: 0 auto; */
-    /* border: 2px solid blue; */
     display: grid;
     width: 50vw;
     justify-content: start;
@@ -343,28 +337,16 @@ input {
     width: 120%;
 }
 
-#input1 {
-    /* margin-left: 0; */
-}
-
-#input2 {
-    /* margin-right: 0; */
-    /* margin-left: auto; */
-}
 
 #textarea {
-    /* width: 400px; */
     height: 10vw;
     margin: 0.3% 2.8%;
 }
 
 #submit {
     width: 70%;
-    /* justify-self: end; */
     position: relative;
-    /* left: 380px; */
     border: none;
-    /* padding: 0.3rem; */
     border-radius: 2px;
     background-color: rgb(27, 41, 112);
     color: rgb(230, 230, 240);
