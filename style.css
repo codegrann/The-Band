@@ -14,9 +14,7 @@ body{
 }
 .lines{
     width: 35px;
-        /* height: px; */
         border: 0.1rem solid rgb(238, 231, 231);
-        /* margin-bottom: 0.1rem; */
 }
 #openNav{
     display: none;
