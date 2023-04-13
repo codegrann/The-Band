@@ -42,16 +42,13 @@ body{
 .dropdown{
     display: inline-block;
     position: relative;
-    /* border: 2px solid red; */
 }
 .dropdown-content{
     display: none;
     position: absolute;
     background-color: rgb(31, 24, 24);
-    /* z-index: 1; */
 }
 .dropdown-content a{
-   /* display: block; */
    padding: 0.3rem  0.5rem;
    height: 25px;
    font-size: 9pt;
