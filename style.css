@@ -91,7 +91,6 @@ body {
 
 /* LANDING SECTION */
 #home {
-    /* background-image: url(la.jpg); */
     height: 50vw;
     color: white;
     position: relative;
@@ -100,7 +99,6 @@ body {
 }
 
 #sub_title {
-    /* border: 2px solid red; */
     font-size: 12pt;
     position: absolute;
     top: 74%;
@@ -110,7 +108,6 @@ body {
 .homebtn {
     position: absolute;
     top: 20vw;
-    /* z-index: 5; */
     background-color: rgb(48, 51, 51);
     font-size: 14pt;
     color: rgb(156, 156, 167);
@@ -136,7 +133,6 @@ body {
 }
 
 #next {
-    /* left: 97%; */
     right: 0.4vw;
 }
 
@@ -145,7 +141,6 @@ body {
 #band {
     margin-top: 2rem;
     margin-bottom: -1rem;
-    /* border: 2px solid red; */
     padding: 1% 5%;
 }
 
