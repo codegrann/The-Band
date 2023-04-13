@@ -1,8 +1,9 @@
-body{
+body {
     margin: 0;
     overflow-x: hidden;
 }
-#header{
+
+#header {
     width: 100vw;
     display: flex;
     position: fixed;
@@ -12,63 +13,73 @@ body{
     top: 0;
     z-index: 2;
 }
-.lines{
+
+.lines {
     width: 35px;
-        border: 0.1rem solid rgb(238, 231, 231);
+    border: 0.1rem solid rgb(238, 231, 231);
 }
-#openNav{
+
+#openNav {
     display: none;
     font-size: 18pt;
 }
-#closeNav{
+
+#closeNav {
     font-size: 3.5rem;
     display: none;
 }
 
 
 
-#nav ul{
+#nav ul {
     list-style: none;
     display: inline-flex;
 
 }
-#nav ul li{
+
+#nav ul li {
     margin: 0.75rem;
 }
-#nav ul li a{
+
+#nav ul li a {
     text-decoration: none;
     color: white;
 }
-.dropdown{
+
+.dropdown {
     display: inline-block;
     position: relative;
 }
-.dropdown-content{
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(31, 24, 24);
 }
-.dropdown-content a{
-   padding: 0.3rem  0.5rem;
-   height: 25px;
-   font-size: 9pt;
-   margin: 5px 3px 5px 3px;
-}
-.dropdown-content a:hover{
-    background-color: #6d6666;
-}
-.dropdown:hover .dropdown-content{
-    display: flex;
-    flex-direction: column;
-    
+
+.dropdown-content a {
+    padding: 0.3rem 0.5rem;
+    height: 25px;
+    font-size: 9pt;
+    margin: 5px 3px 5px 3px;
 }
 
-#offcanvasNav{
+.dropdown-content a:hover {
+    background-color: #6d6666;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#offcanvasNav {
     display: none;
 }
 
 
-#header input{
+#header input {
     align-self: center;
     margin-right: 2%;
     background-color: rgb(51, 45, 45);
@@ -78,23 +89,25 @@ body{
 
 
 
-/* Landing Section */
-#home{
+/* LANDING SECTION */
+#home {
     /* background-image: url(la.jpg); */
     height: 50vw;
     color: white;
     position: relative;
     top: 2rem;
-    
+
 }
-#sub_title{
+
+#sub_title {
     /* border: 2px solid red; */
     font-size: 12pt;
     position: absolute;
     top: 74%;
     left: 35%;
 }
-.homebtn{
+
+.homebtn {
     position: absolute;
     top: 20vw;
     /* z-index: 5; */
@@ -108,63 +121,74 @@ body{
     transition-property: background;
     transition-duration: 500ms;
 }
-.homebtn:hover{
+
+.homebtn:hover {
     background-color: rgb(21, 23, 23);
     cursor: pointer;
 }
-#homeimg{
+
+#homeimg {
     width: 100vw;
 }
-#prev{
+
+#prev {
     left: 0.4vw;
 }
-#next{
+
+#next {
     /* left: 97%; */
     right: 0.4vw;
 }
 
 
 /* THE BAND SECTION */
-#band{
+#band {
     margin-top: 2rem;
     margin-bottom: -1rem;
     /* border: 2px solid red; */
-    padding: 1%  5%;
+    padding: 1% 5%;
 }
-#band h1{
+
+#band h1 {
     /* color: rgb(51, 45, 45); */
     opacity: 0.8;
     font-weight: 400;
 }
-#band h4{
+
+#band h4 {
     opacity: 0.5;
     font-size: 9pt;
 }
-#band p{
+
+#band p {
     font-size: 10pt;
     line-height: 1.7;
     opacity: 0.9;
 }
-#flex_div{
+
+#flex_div {
     /* margin-top: 4rem; */
     display: flex;
-  justify-content: center;
+    justify-content: center;
 }
-.flex_img{
+
+.flex_img {
     width: 25vw;
     display: flex;
     flex-direction: column;
     margin-left: 2%;
 }
-.flex_img img{
+
+.flex_img img {
     border-radius: 0.4rem;
 }
-.flex_img center{
+
+.flex_img center {
     margin-bottom: 1.5rem;
 }
 
 /* TOUR SECTION */
-#tour{
+#tour {
     /* background-color: rgb(47, 30, 30); */
     background-image: linear-gradient(black 30%, grey 80%);
     /* min-height: 100vh; */
@@ -172,7 +196,8 @@ body{
     margin-top: 1rem;
 
 }
-#tour_tickets{
+
+#tour_tickets {
     /* border: 2px solid rgb(10, 10, 10); */
     display: flex;
     flex-direction: column;
@@ -181,38 +206,45 @@ body{
     /* width: 600vw; */
     /* margin: 1.3rem 15rem; */
 }
-#open_txt{
+
+#open_txt {
     /* border: 2px solid red; */
     font-size: 12pt;
-    font-weight:lighter;
+    font-weight: lighter;
 }
-#tickets{
+
+#tickets {
     align-self: center;
     /* border: 2px solid red; */
     background-color: rgb(192, 214, 211);
     color: black;
     width: 50vw;
     margin-bottom: 2.5%;
-   
+
 }
-#tickets p{
+
+#tickets p {
     margin-left: 4%;
 }
-#tickets span{
+
+#tickets span {
     /* background-color: red; */
     font-size: 10pt;
     padding: 0.5%;
     border-radius: 7%;
 
 }
-#p_flex{
+
+#p_flex {
     display: flex;
     justify-content: space-between;
 }
-#p_flex span{
+
+#p_flex span {
     background-color: white;
 }
-#p_flex a{
+
+#p_flex a {
     background-color: black;
     color: white;
     font-size: 10pt;
@@ -222,35 +254,40 @@ body{
     text-decoration: none;
 }
 
-#ticks_avail{
+#ticks_avail {
     /* border: 2px solid red; */
     /* margin: 4rem 0 4rem 0; */
     display: flex;
     justify-content: center;
     gap: 5%;
 }
-.avail{
+
+.avail {
     overflow-x: hidden;
     width: 25%;
     background-color: rgb(250, 253, 252);
     color: black;
     border-radius: 2%;
     margin-bottom: 3%;
-   box-shadow: 3px 3px 10px rgb(28, 23, 23),  -3px -3px 10px rgb(28, 23, 23);
+    box-shadow: 3px 3px 10px rgb(28, 23, 23), -3px -3px 10px rgb(28, 23, 23);
 }
-.avail img{
+
+.avail img {
     width: 100%;
     /* border-radius: 2%; */
     transition-duration: 500ms;
     transition-timing-function: ease-out;
 }
-.avail:hover img{
+
+.avail:hover img {
     transform: scale(1.1);
 }
-.avail p{
+
+.avail p {
     margin-left: 0.5rem;
 }
-.avail button{
+
+.avail button {
     margin-left: 0.5rem;
     background-color: black;
     color: white;
@@ -259,31 +296,37 @@ body{
     font-size: 7pt;
     margin-bottom: 0.5rem;
 }
-.pi{
+
+.pi {
     font-weight: 600;
 }
-.pii{
+
+.pii {
     color: gray;
 }
 
 
 /* CONTACT SECTION */
-#contact{
+#contact {
     background-color: white;
     /* border: 2px solid red; */
     width: 100vw;
     margin-top: 2rem;
     margin-bottom: 0.75rem;
 }
-#contact h1{
+
+#contact h1 {
     font-size: 16pt;
     letter-spacing: 3px;
     word-spacing: 2px;
 }
-#contact h1, #p_center{
+
+#contact h1,
+#p_center {
     text-align: center;
 }
-#contact_us{
+
+#contact_us {
     /* border: 2px solid red; */
     /* width: 50vw; */
     /* margin: 1.5rem auto; */
@@ -292,18 +335,21 @@ body{
     gap: 4%;
 
 }
-#contact_us div{
+
+#contact_us div {
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 1%;
 }
-#contact_us  p:nth-of-type(1),
-#contact_us  p:nth-of-type(2){
+
+#contact_us p:nth-of-type(1),
+#contact_us p:nth-of-type(2) {
     margin-bottom: 5%;
 }
-#contact_form{
+
+#contact_form {
     /* margin: 0 auto; */
     /* border: 2px solid blue; */
     display: grid;
@@ -311,25 +357,29 @@ body{
     justify-content: start;
 
 }
-input{
+
+input {
     margin: 0.3rem 0.5rem;
     height: 2.5rem;
     width: 120%;
 }
 
-#input1{
+#input1 {
     /* margin-left: 0; */
 }
-#input2{
+
+#input2 {
     /* margin-right: 0; */
     /* margin-left: auto; */
 }
-#textarea{
+
+#textarea {
     /* width: 400px; */
     height: 10vw;
     margin: 0.3% 2.8%;
 }
-#submit{
+
+#submit {
     width: 70%;
     /* justify-self: end; */
     position: relative;
@@ -341,78 +391,86 @@ input{
     color: rgb(230, 230, 240);
     transition: background-color 400ms ease-out;
 }
-#submit:hover{
+
+#submit:hover {
     background-color: rgb(90, 90, 138);
     cursor: pointer;
 }
 
 
 /* MAP SECTION */
-#map{
+#map {
     margin-top: 1.75rem;
     /* margin-bottom: 2rem; */
     max-width: 100vw;
 }
-#map img{
+
+#map img {
     width: 100%;
     height: 600px;
 }
-#map img:hover{
-    cursor:grabbing;
+
+#map img:hover {
+    cursor: grabbing;
 }
 
 
 /* #footer{ */
-    /* text-align: center; */
+/* text-align: center; */
 /* } */
 /* #footer a{ */
-    /* color: grey; */
+/* color: grey; */
 /* } */
 
 /* MEDIA QUERIES */
-@media(max-width:1080px){
-   
-}
-@media(min-width:690px){
-#map img{
-    height: 70vh;
-}
+@media(max-width:1080px) {}
+
+@media(min-width:690px) {
+    #map img {
+        height: 70vh;
+    }
 }
 
-@media(max-width:690px){
-    #nav{
+@media(max-width:690px) {
+    #nav {
         display: none;
-    }   
-    header input{
+    }
+
+    header input {
         margin-left: auto;
     }
-    #nav ul li{
+
+    #nav ul li {
         display: inline;
         border: 2px solid red;
     }
-    #offcanvasNav{
+
+    #offcanvasNav {
         display: none;
         width: 40vw;
         height: 100vh;
         background-color: rgb(0, 0, 0);
         position: absolute;
-        top:70%;
+        top: 70%;
         list-style-type: circle;
-        font-size: 10pt; 
+        font-size: 10pt;
     }
-    #offcanvasNav li{
+
+    #offcanvasNav li {
         margin-top: 0.4rem;
     }
-    #offcanvasNav a{
+
+    #offcanvasNav a {
         text-decoration: none;
         color: white;
     }
 
-    .dropdown:hover .dropdown-content{
+    .dropdown:hover .dropdown-content {
         display: none;
         flex-direction: column;
-        
+
     }
+
     #dropContent {
         display: none;
         /* border: 2px solid red; */
@@ -422,129 +480,158 @@ input{
         left: 15px;
         font-size: 9pt;
         /* padding-top: 0.1rem; */
-     
+
     }
-    #dropContent a{
+
+    #dropContent a {
         display: block;
         margin-top: -4px;
-          /* margin: 5px 3px 5px 3px; */
+        /* margin: 5px 3px 5px 3px; */
     }
-    #openNav{
+
+    #openNav {
         display: block;
         margin-left: 2%;
     }
-    #closeNav{
+
+    #closeNav {
         font-size: 32pt;
     }
-    #header input{
-    	margin-left: 5%;
+
+    #header input {
+        margin-left: 5%;
     }
-    
-    
-    
-    #sub_title{
+
+
+
+    #sub_title {
         top: 65%;
         left: 25%;
     }
-    #open_txt{
+
+    #open_txt {
         font-size: 90%;
     }
-    #open_txt h1{
+
+    #open_txt h1 {
         margin-bottom: -0.5rem;
     }
-    #tickets{
+
+    #tickets {
         width: 80%;
         font-size: 10pt;
     }
-    #ticks_avail{
+
+    #ticks_avail {
         flex-wrap: wrap;
     }
-    .avail{
+
+    .avail {
         width: 40vw;
     }
-     #contact_us{
+
+    #contact_us {
         justify-content: start;
     }
-    #map img{
+
+    #map img {
         height: 40vh;
     }
 }
-@media(max-width:600px){
-    input{
+
+@media(max-width:600px) {
+    input {
         width: 110%;
     }
-    #textarea{
+
+    #textarea {
         height: 100px;
     }
 }
 
-@media(max-width:550px){
-    .homebtn{
+@media(max-width:550px) {
+    .homebtn {
         font-size: 90%;
         padding: 1% 2%;
     }
-    #sub_title{
+
+    #sub_title {
         /* top: 55%; */
         left: 25%;
     }
-    #sub_title h1{
+
+    #sub_title h1 {
         margin-bottom: -0.6rem;
         font-size: 14pt;
     }
-    #sub_title p{
+
+    #sub_title p {
         font-size: 8pt;
     }
-    #contact_us{
+
+    #contact_us {
         justify-content: start;
     }
-    #contact_us span{
+
+    #contact_us span {
         display: none;
     }
-    input{
+
+    input {
         width: 150%;
     }
 }
 
-@media(max-width:390px){
-     #sub_title{
+@media(max-width:390px) {
+    #sub_title {
         top: 65%;
         left: 20%;
     }
-    #band h1{
+
+    #band h1 {
         font-size: 15pt;
         letter-spacing: 2px;
         margin-bottom: -0.6rem;
     }
-    #band h4{
+
+    #band h4 {
         word-spacing: -1px;
     }
-    #band p{
+
+    #band p {
         font-size: 8pt;
         line-height: 1.5;
     }
-    #flex_div{
+
+    #flex_div {
         flex-direction: column;
         align-items: center;
     }
-    .flex_img{
-        width:50vw;
+
+    .flex_img {
+        width: 50vw;
     }
-   #tickets{
-    width: 100%;
-   }
-   .avail{
-    width: 70vw;
+
+    #tickets {
+        width: 100%;
+    }
+
+    .avail {
+        width: 70vw;
+    }
+
 }
-   
-}
-@media(max-width:324px){
-    #sub_title{
+
+@media(max-width:324px) {
+    #sub_title {
         left: 10%;
     }
-    #open_txt{
+
+    #open_txt {
         font-size: 60%;
     }
-    .avail{
+
+    .avail {
         width: 90%;
     }
 }
