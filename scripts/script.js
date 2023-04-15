@@ -77,7 +77,3 @@ search.oninput = function () {
 
 
 setInterval(goFront, 5000);
-
-
-
-
