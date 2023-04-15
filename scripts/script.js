@@ -16,6 +16,8 @@ let cities=["Los Angeles","Chicago", "New York"]
 let activities=["We had the best time playing at Venice Beach!", 
                     "Fans enjoyed our company in Chicago streets!",
                 "Our instrumentals were felt on all corners of New York City!"]
+let submitBtn=document.querySelector("#submit");
+
 
 openBtn.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
@@ -73,3 +75,7 @@ search.oninput = function () {
     search.style.color = "white";
 }
 setInterval(goFront, 5000);
+
+
+
+submitBtn.addEventListener('click', (e)=>{e.preventDefault()})
