@@ -1,5 +1,4 @@
 let home = document.getElementById("home");
-// let head=document.getElementById("header");
 let openBtn=document.querySelector("#openNav");
 let closeBtn=document.querySelector("#closeNav")
 let navMenu=document.querySelector("#offcanvasNav");
@@ -17,7 +16,6 @@ let cities=["Los Angeles","Chicago", "New York"]
 let activities=["We had the best time playing at Venice Beach!", 
                     "Fans enjoyed our company in Chicago streets!",
                 "Our instrumentals were felt on all corners of New York City!"]
-// head.style.backgroundColor="yellow";
 
 openBtn.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
@@ -74,6 +72,4 @@ let search = document.getElementById("search");
 search.oninput = function () {
     search.style.color = "white";
 }
-
-
 setInterval(goFront, 5000);
